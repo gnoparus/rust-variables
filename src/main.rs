@@ -24,9 +24,36 @@ fn main() {
     // let mut spaces = "   ";
     // spaces = spaces.len();
 
+    // Floating points
     let f1 = 2.0; // f64
     let f2: f32 = 3.0; // f32
 
     println!("The value of f1 is : {f1:0.3}");
     println!("The value of f1 is : {f2:0.3}");
+
+    // Numeric Operations
+
+    // addition
+    let sum = 5 + 10;
+    println!("Sum: {}", sum);
+
+    // subtraction
+    let difference = 95.5 - 4.3;
+    println!("Difference: {}", difference);
+
+    // multiplication
+    let product = 4 * 30;
+    println!("Product: {}", product);
+
+    // division
+    let quotient = 56.7 / 32.2;
+    println!("Quotient: {}", quotient);
+
+    // demonstrating integer division (truncation towards zero)
+    let truncated = -5 / 3; // Results in -1 since it's integer division
+    println!("Truncated division result: {}", truncated);
+
+    // remainder
+    let remainder = 43 % 5;
+    println!("Remainder: {}", remainder);
 }
